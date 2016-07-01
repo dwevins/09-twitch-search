@@ -13,5 +13,10 @@
 // You will have to change the usual starting and test conditions in your for loop
 
 export default function reverseList(existingList, destination) {
+  const existingItems = existingList.children;
 
+  for (let i = existingItems.length - 1; i >= 0; i--) {
+    const currElement = existingItems[i].cloneNode(true);
+    destination.appendChild(currElement);
+  }
 }
