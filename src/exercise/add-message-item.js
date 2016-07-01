@@ -12,5 +12,5 @@
 import createMessageItem from 'exercise/create-message-item';
 
 export default function () {
-
+  //wat
 }
