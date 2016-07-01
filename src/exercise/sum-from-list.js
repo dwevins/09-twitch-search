@@ -5,5 +5,13 @@
 // of the contents of ALL of the child elements within the parent argument
 
 export default function sumFromList(parent) {
+  let sum = 0;
+  const children = parent.children;
 
+  for (let i = 0; i < children.length; i++) {
+    const innerNum = parseInt(children[i].innerText, 10);
+    sum += innerNum;
+  }
+
+  return sum;
 }
