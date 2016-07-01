@@ -2,7 +2,7 @@
 // parent: element which is an existing element
 // data: an object of data to represent
 //
-// The "data" argument will be an object that looks like
+// The "data" arg will be an object that looks like
 // { username: 'John', message: 'Getting ready for the Java class!' },
 //
 // This function should add a new element based on the data
