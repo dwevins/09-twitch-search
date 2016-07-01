@@ -12,7 +12,6 @@
 import createMessageItem from 'exercise/create-message-item';
 
 export default function addMessageItem(parent, data) {
-  const item = createMessageItem();
-
+  const item = createMessageItem(data);
   parent.appendChild(item);
 }
