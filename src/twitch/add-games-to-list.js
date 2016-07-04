@@ -8,6 +8,13 @@
 //
 // You already have a function that creates these game item elements
 
-export default function addGamesToList(parent, data) {
+import createGameElement from 'twitch/create-game-element';
 
+export default function addGamesToList(parent, data) {
+  const parentEl = parent;
+  parentEl.innerHTML = '';
+  for (let i = 0; i < data.length; i++) {
+    const game = createGameElement(data[i]);
+    parentEl.appendChild(game);
+  }
 }
