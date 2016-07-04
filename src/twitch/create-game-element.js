@@ -26,5 +26,21 @@
 // }
 
 export default function createGameElement(game) {
+  const gameItem = document.createElement('div');
+  const gameItemName = document.createElement('h3');
+  const gameItemPopularity = document.createElement('h4');
+  const gameItemPic = document.createElement('img');
+  gameItem.className = 'game-item';
+  gameItemName.className = 'game-item__name';
+  gameItemPopularity.className = 'game-item__popularity';
+  gameItemPic.className = 'game-item__pic';
+  gameItemName.innerText = game.name;
+  gameItemPopularity.innerText = game.popularity;
+  gameItemPic.setAttribute('src', `${game.box.large}`);
+  gameItemPic.setAttribute('alt', `${game.name}`);
+  gameItem.appendChild(gameItemName);
+  gameItem.appendChild(gameItemPopularity);
+  gameItem.appendChild(gameItemPic);
 
+  return gameItem;
 }
