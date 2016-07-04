@@ -15,15 +15,9 @@ html {
 
 .tw-app {
   display: flex;
+  flex-direction: row;
   width: 100%;
   background: #a3a6ee;
-
-  &__left {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    background: #c19238;
-  }
 
   &__center {
     display: flex;
