@@ -16,22 +16,26 @@ html {
 .tw-app {
   display: flex;
   width: 100%;
+  background: #a3a6ee;
 
   &__left {
     display: flex;
     flex-direction: column;
-    max-width: 25%;
+    width: 25%;
+    background: #c19238;
   }
 
   &__center {
     display: flex;
     flex-direction: column;
-    max-width: 40%;
+    width: 40%;
+    background: #107581;
   }
 
   &__right {
     display: flex;
     flex-direction: column;
-    max-width: 35%;
+    width: 35%;
+    background: #4884a4;
   }
 }
