@@ -11,3 +11,23 @@ html {
     box-sizing: inherit;
   }
 }
+
+.tw-app {
+  display: flex;
+  width: 100%;
+
+  &__left {
+    display: flex;
+    max-width: 25%;
+  }
+
+  &__center {
+    display: flex;
+    max-width: 40%;
+  }
+
+  &__right {
+    display: flex;
+    max-width: 35;
+  }
+}
