@@ -23,6 +23,7 @@ html {
     flex-direction: column;
     width: 40%;
     background: #107581;
+    overflow-y: auto;
   }
 
   &__right {
