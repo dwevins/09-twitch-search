@@ -4,3 +4,26 @@
   width: 25%;
   background: #c19238;
 }
+
+.more {
+  display: flex;
+  flex-direction: row;
+}
+
+.browse-list {
+
+  &__item {
+    display: flex;
+    flex-direction: row;
+
+    &--icon {
+      width: 2rem;
+    }
+
+    &--text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
