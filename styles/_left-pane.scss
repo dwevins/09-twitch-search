@@ -2,13 +2,8 @@
   display: flex;
   flex-direction: column;
   width: 25%;
-  background: #c19238;
 }
 
-.more {
-  display: flex;
-  flex-direction: row;
-}
 
 .browse-list {
 
@@ -26,4 +21,9 @@
       justify-content: center;
     }
   }
+}
+
+.more {
+  display: flex;
+  flex-direction: row;
 }
