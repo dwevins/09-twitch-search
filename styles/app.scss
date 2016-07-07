@@ -6,12 +6,13 @@ $brand-purple: #6441a4;
 $border-purple: #2c2541;
 $highlight-purple: #201c2b;
 $gray: #b8b5c0;
-$dark-gray: #a49Fad;
+$dark-gray: #a49fad;
 $highlight-gray: #e5e3e8;
 $white: #fff;
 
 @import 'font-awesome';
 @import 'box-sizing';
+@import 'margin-box';
 @import 'reset';
 @import 'twitch';
 @import 'left-pane';
