@@ -1,6 +1,7 @@
 .tw-app__left {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 18.5%;
   background: $left-pane-bg;
 }
