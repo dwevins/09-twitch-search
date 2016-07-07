@@ -18,10 +18,17 @@ html {
   flex-direction: row;
   width: 100%;
 
+  &__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 18%;
+  }
+
   &__center {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 52%;
     background: #107581;
     overflow-y: auto;
   }
@@ -29,7 +36,7 @@ html {
   &__right {
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 30%;
     background: #4884a4;
   }
 }
