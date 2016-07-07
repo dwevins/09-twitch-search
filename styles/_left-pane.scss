@@ -19,27 +19,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: $gutter;
+  margin: $gutter;
 
   &__box {
     // display: flex;
     // flex-direction: row;
     width: 100%;
     padding: 0;
+    background-color: $highlight-purple;
 
     &--icon {
       width: 2rem;
       margin: 0;
       float: left;
-      fill: $gray;
+      fill: $dark-gray;
     }
 
     &--input {
       width: calc(90% - 2rem);
       margin: 0;
       padding: 0.5rem 0;
-
+      float: right;
       border: 0;
+      background-color: transparent;
+      color: $dark-gray;
     }
   }
 }
