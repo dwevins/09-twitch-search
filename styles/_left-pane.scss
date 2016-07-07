@@ -25,12 +25,14 @@
     // display: flex;
     // flex-direction: row;
     width: 100%;
-    padding: 0;
+    padding: 0 0.5 * $gutter;
+    outline: 1px solid $border-purple;
     background-color: $highlight-purple;
 
     &--icon {
-      width: 2rem;
-      margin: 0;
+      display: block;
+      width: 1.7rem;
+      margin: auto;
       float: left;
       fill: $dark-gray;
     }
@@ -43,6 +45,11 @@
       border: 0;
       background-color: transparent;
       color: $dark-gray;
+      font-size: 1.1rem;
+
+      &:focus {
+        outline: none;
+      }
     }
   }
 }
