@@ -15,6 +15,40 @@
   }
 }
 
+.search-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  border: 1px solid $border-purple;
+  color: $dark-gray;
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 12%;
+
+    &--img {
+      width: 100%;
+    }
+  }
+
+  &__search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &--input {
+      border: 0;
+      outline: none;
+      background-color: transparent;
+      color: $dark-gray;
+    }
+  }
+}
 
 .browse-list {
   color: $gray;
