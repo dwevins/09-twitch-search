@@ -38,9 +38,9 @@ export default function createGameElement(game) {
   gameItemPopularity.innerText = game.popularity;
   gameItemPic.setAttribute('src', `${game.box.large}`);
   gameItemPic.setAttribute('alt', `${game.name}`);
+  gameItem.appendChild(gameItemPic);
   gameItem.appendChild(gameItemName);
   gameItem.appendChild(gameItemPopularity);
-  gameItem.appendChild(gameItemPic);
 
   return gameItem;
 }

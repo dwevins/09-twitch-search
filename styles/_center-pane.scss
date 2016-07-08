@@ -7,11 +7,12 @@
 
 .game-item {
   display: flex;
-  flex-direction: column-reverse;
-
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 30%;
+  justify-content: space-between;
+  width: 21%;
+  font-size: 0.7rem;
+  text-align: center;
 
   &__pic {
     width: 100%;
