@@ -9,6 +9,7 @@ $text-gray: #433f4a;
 $gray: #b8b5c0;
 $dark-gray: #a49fad;
 $highlight-gray: #e5e3e8;
+$light-gray: #efeef1;
 $white: #fff;
 
 @import 'font-awesome';
@@ -18,3 +19,4 @@ $white: #fff;
 @import 'twitch';
 @import 'left-pane';
 @import 'center-pane';
+@import 'right-pane';
