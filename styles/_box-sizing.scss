@@ -17,6 +17,7 @@ html {
   display: flex;
   flex-direction: row;
   width: 100%;
+  font-family: sans-serif;
 
   &__left {
     display: flex;
@@ -29,7 +30,6 @@ html {
     display: flex;
     flex-direction: column;
     width: 56%;
-    background: #107581;
     overflow-y: auto;
   }
 
