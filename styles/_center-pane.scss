@@ -1,0 +1,19 @@
+.games-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: $gutter 0;
+}
+
+.game-item {
+  display: flex;
+  flex-direction: column-reverse;
+
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+
+  &__pic {
+    width: 100%;
+  }
+}
