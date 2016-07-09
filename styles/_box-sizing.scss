@@ -47,3 +47,11 @@ html {
     width: 26%;
   }
 }
+
+.margin-box {
+  margin: 0 $gutter;
+}
+
+.vertical-margin-box {
+  margin: $gutter 0;
+}
