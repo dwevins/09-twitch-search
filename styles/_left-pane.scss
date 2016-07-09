@@ -73,6 +73,20 @@
 }
 
 .more {
-  display: flex;
-  flex-direction: row;
+
+  a {
+    color: $dark-gray;
+    font-size: 0.7rem;
+
+    &:link,
+    :visited,
+    :hover,
+    :active {
+      text-decoration: none;
+    }
+  }
+
+  &-list {
+    width: 45%;
+  }
 }
