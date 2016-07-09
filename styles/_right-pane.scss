@@ -1,3 +1,21 @@
 .tw-app__right {
   background: $light-gray;
 }
+
+.login-plea {
+  color: $text-gray;
+
+  &__list {
+
+    &--item {
+      display: inline-flex;
+      width: auto;
+      margin: 0.25 * $gutter 0;
+      padding: 0.25 * $gutter;
+      border-left: 3px solid $brand-purple;
+      background: $white;
+      font-size: 0.9rem;
+
+    }
+  }
+}
