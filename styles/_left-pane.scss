@@ -58,6 +58,12 @@
   &__item {
     display: flex;
     flex-direction: row;
+    width: 100%;
+
+    .margin-box {
+      display: flex;
+      align-items: center;
+    }
 
     &--icon {
       width: 2rem;
