@@ -88,6 +88,12 @@
 }
 
 .more {
+  &-header {
+    padding-bottom: 0.3 * $gutter;
+    border-bottom: 1px solid $border-purple;
+    color: $highlight-gray;
+    font-size: 0.8rem;
+  }
 
   a {
     color: $dark-gray;
