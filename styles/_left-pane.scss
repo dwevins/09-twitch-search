@@ -86,6 +86,11 @@
     }
   }
 
+  &-box {
+    display: flex;
+    justify-content: space-between;
+  }
+
   &-list {
     width: 45%;
   }
