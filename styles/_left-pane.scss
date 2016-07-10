@@ -53,7 +53,14 @@
 }
 
 .browse-list {
+  width: 100%;
   color: $gray;
+
+  .games {
+    width: 100%;
+    border-left: 3px solid $brand-purple;
+    background: $highlight-purple;
+  }
 
   &__item {
     display: flex;
@@ -64,6 +71,7 @@
       display: flex;
       align-items: center;
     }
+
 
     &--icon {
       width: 2rem;
