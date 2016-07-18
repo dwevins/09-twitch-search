@@ -1,6 +1,21 @@
-// @import 'yoga';
-// @import 'normalize';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+$gutter: 1.5rem;
+$left-pane-bg: #17141f;
+$brand-purple: #6441a4;
+$border-purple: #2c2541;
+$highlight-purple: #201c2b;
+$text-gray: #433f4a;
+$gray: #b8b5c0;
+$dark-gray: #a49fad;
+$highlight-gray: #e5e3e8;
+$light-gray: #efeef1;
+$white: #fff;
+
+@import 'font-awesome';
 @import 'box-sizing';
+@import 'reset';
+@import 'twitch';
+@import 'left-pane';
+@import 'center-pane';
+@import 'right-pane';

@@ -1,0 +1,18 @@
+.games-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.game-item {
+  min-width: 5rem;
+  max-width: 7rem;
+  margin: $gutter;
+  color: $text-gray;
+  font-size: 0.7rem;
+  text-align: center;
+
+  &__pic {
+    width: 100%;
+  }
+}

@@ -1,0 +1,178 @@
+.tw-app__left {
+  background: $left-pane-bg;
+}
+
+.logo {
+  text-align: center;
+
+  &__img {
+    width: 5.8rem;
+    fill: $white;
+  }
+}
+
+.search {
+  width: 100%;
+}
+
+.search-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0.25 * $gutter 0;
+  border: 1px solid $border-purple;
+  background: $highlight-purple;
+  color: $dark-gray;
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12%;
+    float: left;
+
+    &--img {
+      width: 100%;
+    }
+  }
+
+  &__search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &--input {
+      border: 0;
+      outline: none;
+      background-color: transparent;
+      color: $dark-gray;
+    }
+  }
+}
+
+.browse-list {
+  width: 100%;
+  color: $gray;
+
+  .games {
+    width: 100%;
+    border-left: 3px solid $brand-purple;
+    background: $highlight-purple;
+    color: $white;
+    box-sizing: border-box;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    .margin-box {
+      display: flex;
+      align-items: center;
+    }
+
+    &icon {
+      width: 10%;
+    }
+
+    &--text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0.3 * $gutter 0.5 * $gutter;
+      text-align: center;
+    }
+  }
+}
+
+.recommended-list {
+
+  &__item {
+    display: flex;
+    margin: $gutter 0;
+
+    &--image {
+      max-width: 3rem;
+    }
+
+    &--info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: auto;
+      margin-left: 0.5 * $gutter;
+    }
+  }
+}
+
+.channel {
+
+  &-img {
+    width: 100%;
+  }
+
+  &-name {
+    margin: 0;
+    color: $gray;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  &-status {
+    margin: 0;
+    color: $dark-gray;
+    font-size: 0.5rem;
+  }
+}
+
+
+.more {
+  &-header {
+    padding-bottom: 0.3 * $gutter;
+    border-bottom: 1px solid $border-purple;
+    color: $highlight-gray;
+    font-size: 0.8rem;
+  }
+
+  a {
+    color: $dark-gray;
+    font-size: 0.7rem;
+
+    &:link,
+    :visited,
+    :hover,
+    :active {
+      text-decoration: none;
+    }
+  }
+
+  &-box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-list {
+    width: 45%;
+  }
+}
+
+.account {
+
+  .margin-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-tools {
+    width: 45%;
+    padding: 0.3 * $gutter 0;
+    border: 0;
+    background: $brand-purple;
+    color: $white;
+    font-size: 0.8rem;
+  }
+}

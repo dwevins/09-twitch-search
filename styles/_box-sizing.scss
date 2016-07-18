@@ -4,10 +4,52 @@ html {
 }
 
 * {
-  box-sizing: inherit;
+  // border: 1px solid red;
+  // box-sizing: inherit;
 
   &:before,
   &:after {
     box-sizing: inherit;
   }
+}
+
+.tw-app {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  font-family: sans-serif;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 18%;
+
+    &--container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+    }
+  }
+
+  &__center {
+    overflow-y: auto;
+    width: 56%;
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    width: 26%;
+  }
+}
+
+.margin-box {
+  margin: 0 $gutter;
+}
+
+.vertical-margin-box {
+  margin: $gutter 0;
 }
