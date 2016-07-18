@@ -61,6 +61,7 @@
     border-left: 3px solid $brand-purple;
     background: $highlight-purple;
     color: $white;
+    box-sizing: border-box;
   }
 
   &__item {
