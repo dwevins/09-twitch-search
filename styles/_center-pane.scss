@@ -2,12 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: $gutter 0;
 }
 
 .game-item {
-  min-width: 10rem;
-  max-width: 15rem;
+  min-width: 5rem;
+  max-width: 9rem;
   margin: $gutter;
   color: $text-gray;
   font-size: 0.7rem;

@@ -25,11 +25,9 @@ html {
     flex-direction: column;
     justify-content: center;
     width: 18%;
-    max-width: 20rem;
 
     &--container {
       display: flex;
-      flex-basis: 100%;
       flex-direction: column;
       justify-content: space-between;
       width: 100%;
@@ -37,17 +35,14 @@ html {
   }
 
   &__center {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
     overflow-y: auto;
+    width: 56%;
   }
 
   &__right {
     display: flex;
     flex-direction: column;
     width: 26%;
-    max-width: 23rem;
   }
 }
 

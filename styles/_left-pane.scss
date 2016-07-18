@@ -88,6 +88,47 @@
   }
 }
 
+.recommended-list {
+
+  &__item {
+    display: flex;
+    margin: $gutter 0;
+
+    &--image {
+      max-width: 3rem;
+    }
+
+    &--info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: auto;
+      margin-left: 0.5 * $gutter;
+    }
+  }
+}
+
+.channel {
+
+  &-img {
+    width: 100%;
+  }
+
+  &-name {
+    margin: 0;
+    color: $gray;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  &-status {
+    margin: 0;
+    color: $dark-gray;
+    font-size: 0.8rem;
+  }
+}
+
+
 .more {
   &-header {
     padding-bottom: 0.3 * $gutter;
