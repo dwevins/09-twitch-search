@@ -1,16 +1,14 @@
 .games-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   padding: $gutter 0;
 }
 
 .game-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  width: 21%;
+  min-width: 10rem;
+  max-width: 15rem;
+  margin: $gutter;
   color: $text-gray;
   font-size: 0.7rem;
   text-align: center;

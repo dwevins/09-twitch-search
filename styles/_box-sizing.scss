@@ -16,6 +16,7 @@ html {
 .tw-app {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   width: 100%;
   font-family: sans-serif;
 
@@ -24,6 +25,7 @@ html {
     flex-direction: column;
     justify-content: center;
     width: 18%;
+    max-width: 20rem;
 
     &--container {
       display: flex;
@@ -37,7 +39,7 @@ html {
   &__center {
     display: flex;
     flex-direction: column;
-    width: 56%;
+    width: 100%;
     overflow-y: auto;
   }
 
@@ -45,6 +47,7 @@ html {
     display: flex;
     flex-direction: column;
     width: 26%;
+    max-width: 23rem;
   }
 }
 
